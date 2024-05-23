@@ -2,5 +2,5 @@
 
 A Interative Rive Animation project.
 
-# Available For Project 
+# Available For Freelancing Project
 theexpensiveinformatics@gmail.com
