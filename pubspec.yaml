@@ -1,0 +1,42 @@
+name: rive_practice
+description: "An interactive rive animation project by 0Krushang"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# <---- DEPENDENCIES ---->
+  cupertino_icons: ^1.0.6
+  rive: ^0.13.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+# <-----LOCAL ASSETS----->
+  assets:
+    - assets/rive/
+
+  fonts:
+    - family: Demo
+      fonts:
+
+        - asset: assets\fonts\Sk-Modernist-Regular.otf
+          weight: 400
+        - asset: assets\fonts\Sk-Modernist-Mono.otf
+          weight: 500
+        - asset: assets\fonts\Sk-Modernist-Bold.otf
+          weight: 600
